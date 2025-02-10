@@ -8,6 +8,11 @@ package fullstack.li.config;
 public class MybatisConfiguration {
 
     public Object configBean() {
+        System.out.println("new config");
+        return null;
+    }
+
+    private Object mysqlConfig() {
         return null;
     }
 }
