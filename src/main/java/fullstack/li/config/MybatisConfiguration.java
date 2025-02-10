@@ -10,4 +10,8 @@ public class MybatisConfiguration {
     public Object configBean() {
         return null;
     }
+
+    private void test() {
+        System.out.println("test");
+    }
 }
