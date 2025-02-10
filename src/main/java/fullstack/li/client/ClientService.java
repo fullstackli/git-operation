@@ -14,6 +14,6 @@ public class ClientService {
     }
 
     private void fix() {
-        System.out.println("fixed");
+        System.out.println("server fixed");
     }
 }
