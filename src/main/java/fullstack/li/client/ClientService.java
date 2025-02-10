@@ -7,7 +7,13 @@ package fullstack.li.client;
  */
 public class ClientService {
 
-    public void client() {
+    public String client() {
         System.out.println("client");
+        System.out.println("ok");
+        return "ok";
+    }
+
+    private void fix() {
+        System.out.println("fixed");
     }
 }
